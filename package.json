@@ -1,0 +1,22 @@
+{
+    "name": "reactgettingstarted",
+    "version": "1.0.0",
+    "description": "Tutorial Source Code to Getting Started React; Case Study Tic-Tac Games",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/indraone01/ReactGettingStarted.git"
+    },
+    "keywords": [
+        "reactjs"
+    ],
+    "author": "andri indrawan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/indraone01/ReactGettingStarted/issues"
+    },
+    "homepage": "https://github.com/indraone01/ReactGettingStarted#readme"
+}
