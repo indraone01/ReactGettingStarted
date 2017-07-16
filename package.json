@@ -1,11 +1,35 @@
 {
     "name": "reactgettingstarted",
     "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "eslint": "^4.2.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.1",
+    "prettier": "^1.5.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.1",
+    "react-scripts": "1.0.10"
+  },
     "description": "Tutorial Source Code to Getting Started React; Case Study Tic-Tac Games",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+"lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/indraone01/ReactGettingStarted.git"
